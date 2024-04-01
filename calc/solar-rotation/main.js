@@ -8,12 +8,11 @@ function getOmega(alt) {
 }
 let output = document.getElementById('answer')
 document.getElementById('run').addEventListener('click', (event) => {
-    console.log('a')
     altitude = document.getElementById('altitude').value
     if (!isNaN(altitude)) {
         output.innerText = getOmega(Number(altitude))
     }
     else {
-        output.innerText = ''
+        output.innerText = '?'
     }
 })
