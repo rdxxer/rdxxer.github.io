@@ -19,11 +19,25 @@ body {
     color: white;
 }
 
-.heading {
+#heading {
     font-weight: 600;
+}
+
+table {
+    border-collapse: collapse;
+    width: 1000px;
+}
+
+td {
+    border: 2px solid silver;
+    padding: 5px;
 }
 
 .hanja {
     font-family: 'Noto Sans KR', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans SC', 'Arial', 'BabelStone Han', sans-serif !important;
     font-weight: 100 !important;
+}
+
+.hanja, .hanja * {
+    font-size: 1.5rem;
 }
