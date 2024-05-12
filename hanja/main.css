@@ -41,3 +41,9 @@ td {
 .hanja, .hanja * {
     font-size: 1.5rem;
 }
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid silver;
+}
